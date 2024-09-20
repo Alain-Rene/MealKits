@@ -94,7 +94,7 @@
 -- WHERE SubscriptionEndDate <= '2024-08-01';
 
 -- SELECT FullName, Email FROM Customers
--- WHERE SubscriptionLevel='Premium';
+-- WHERE SubscriptionLevel='Premium' AND [State] = 'NY';
 
 -- CREATE TABLE Meals(
 --     MealID INT IDENTITY(1,1) PRIMARY KEY,
